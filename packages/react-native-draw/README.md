@@ -28,7 +28,7 @@ Here's the most simple example:
 
 ```tsx
 import React from 'react';
-import { Canvas } from '@benjeau/react-native-draw';
+import { Canvas } from '@locht/react-native-draw';
 
 export default () => <Canvas />;
 ```
@@ -45,7 +45,7 @@ Here's a more complex example:
 ```tsx
 import React, { useRef } from 'react';
 import { Button } from 'react-native';
-import { Canvas, CanvasRef } from '@benjeau/react-native-draw';
+import { Canvas, CanvasRef } from '@locht/react-native-draw';
 
 export default () => {
   const canvasRef = useRef<CanvasRef>(null);
@@ -97,7 +97,7 @@ import {
   CanvasRef,
   DEFAULT_COLORS,
   DrawingTool,
-} from '@benjeau/react-native-draw';
+} from '@locht/react-native-draw';
 
 export default () => {
   const canvasRef = useRef<CanvasRef>(null);
