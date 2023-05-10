@@ -7,9 +7,9 @@ Cross-platform React Native drawing component based on SVG
 ## Installation
 
 ```sh
-npm install @benjeau/react-native-draw
+npm install @locht/react-native-draw
 # or
-yarn add @benjeau/react-native-draw
+yarn add @locht/react-native-draw
 ```
 
 > Also, you need to install [react-native-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler) and [react-native-svg](https://github.com/react-native-svg/react-native-svg), and follow their installation instructions.
